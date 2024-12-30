@@ -1,0 +1,66 @@
+.border{
+    border: 2px solid cyan;
+    margin: 3px;
+}
+
+.bg-gray{
+    background-color: #121212;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.invert{
+    filter: invert(0.7);
+}
+
+.invert:hover{
+    filter: invert(1);
+}
+
+.invert-1{
+    filter: invert(1);
+}
+
+.invert-1:hover{
+    filter: invert(0.8);
+}
+
+.rounded{
+    border-radius: 9px;
+}
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #131313; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1F1F1F; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #898989;
+}
+
+html {
+    scroll-behavior: smooth;
+}
